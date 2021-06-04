@@ -1,6 +1,8 @@
 from nltk.tokenize import word_tokenize
 from gensim.models import KeyedVectors
 from sklearn.metrics.pairwise import cosine_similarity
+import nltk
+nltk.download('punkt')
 
 model = KeyedVectors.load_word2vec_format('word2vec-skipGram_s300.txt')
 
