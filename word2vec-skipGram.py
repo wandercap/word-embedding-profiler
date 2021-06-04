@@ -15,7 +15,7 @@ wordf = "transcricao.txt"
 
 axes = [0, 1, 2]
 
-clusterK = 5
+clusterK = 4
 
 num_outputs = 15
 
@@ -24,7 +24,7 @@ colors = ["tab:red", "tab:blue", "tab:green", "tab:orange",
 defaultcolor = "black"
 
 sizes = []
-defaultsize = 16
+defaultsize = 10
 
 def plot2D(result, wordgroups):
     pyplot.scatter(result[:, axes[0]], result[:, axes[1]])
